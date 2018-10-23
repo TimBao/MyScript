@@ -87,5 +87,5 @@ then
         sips -Z 1024 -c 768 1024 ${TEMPLATE} --out Images.xcassets/LaunchImage.launchimage/Default1024x768.png
     fi
 else
-    echo "${DEFAULT} not found."
+    echo "${TEMPLATE} not found."
 fi
